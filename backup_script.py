@@ -6,6 +6,24 @@ import time
 # pip install paramiko
 # Make sure the user on your VPS has write permissions to the target folder.
 
+
+# How to run the script:
+# cd to the file directory
+
+# and run 
+# python3 backup_script.py
+
+# (Optional) Make it directly executable
+# You can also make it so you just type ./backup.py:
+
+# so still in your file directory just type :
+
+# chmod +x backup_script.py
+
+# Then run:
+
+# ./backup_script.py
+
 def backup_folder(local_folder, remote_base_folder, hostname, port, username, password, max_backups=3):
     """
     Backup local_folder to a timestamped folder inside remote_base_folder on VPS.
