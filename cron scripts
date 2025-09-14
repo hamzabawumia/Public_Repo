@@ -1,0 +1,3 @@
+00 17 * * * /usr/bin/env python3 /path/to/script.py
+
+00 17 * * * /home/hamza/Supermed_Software/python/bin/python2.7 /home/hamza/Supermed_Software/pythonPackages/django/build/scripts-2.7/smcproject/1 AUTO_BACKUP FILES/zip_folder.py    
